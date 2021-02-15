@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.705);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 100px 70px;
+  height: 60%;
+  width: 30%;
+}
+.container > h1 {
+  color: white;
+  font-weight: 500;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.801);
+}
+.input-container {
+  margin: 10px 0;
+}
+.input-container > input {
+  padding: 10px 5px;
+  outline-width: 0;
+  border-color: rgba(255, 0, 0, 0.801);
+  background: none;
+  color: white;
+  border-radius: 24px;
+  width: 130px;
+  transition: all 0.25s ease-out;
+}
+.input-container > input:focus {
+  width: 170px;
+}
+.password-container {
+  margin: 10px 0;
+}
+.password-container > input {
+  padding: 10px 5px;
+  outline-width: 0;
+  border-color: rgba(255, 0, 0, 0.801);
+  background: none;
+  color: white;
+  border-radius: 24px;
+  width: 130px;
+  transition: all 0.25s ease-out;
+}
+.password-container > input:focus {
+  width: 170px;
+}
+.login-btn {
+  padding: 10px 5px;
+  background-color: rgba(255, 0, 0, 0.801);
+  color: white;
+  border: none;
+  outline-width: 0;
+  border-radius: 24px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 130px;
+
+  transition: all 0.25s ease-in;
+}
+.login-btn:hover {
+  transform: scale(1.1);
+}
